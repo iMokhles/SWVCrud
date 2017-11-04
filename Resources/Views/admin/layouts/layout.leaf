@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    #embed("admin/inc/heads")
+</head>
+
+<body class="hold-transition skin-red sidebar-mini">
+<script type="text/javascript">
+/* Recover sidebar state */
+(function () {
+if (Boolean(sessionStorage.getItem('sidebar-toggle-collapsed'))) {
+var body = document.getElementsByTagName('body')[0];
+body.className = body.className + ' sidebar-collapse';
+}
+})();
+</script>
+<!-- Site wrapper -->
+<div class="wrapper">
+
+<header class="main-header">
+    #import("navibar")
+</header>
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+<!-- Content Header (Page header) -->
+
+#import("breadcrumb")
+
+<!-- Main content -->
+<section class="content">
+
+#import("content")
+
+</section>
+<!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+<footer class="main-footer">
+
+</footer>
+</div>
+<!-- ./wrapper -->
+
+</div>
+
+#embed("admin/inc/scripts")
+
+</body>
+
+</html>

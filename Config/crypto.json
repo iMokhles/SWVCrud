@@ -1,0 +1,13 @@
+{
+    "hash": {
+        "method": "sha256",
+        "encoding": "hex",
+        "key": "VqLc3U8mf6vQZaL1VoQ43gO4yr4="
+    },
+
+    "cipher": {
+        "method": "aes256",
+        "encoding": "base64",
+        "key": "q6sQQypodEWKv3OzM3Bz51iTu9lVZpoYCX9yrpx14yU=="
+    }
+}

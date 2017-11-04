@@ -1,0 +1,45 @@
+#extend("admin/layouts/layout")
+
+#export("title") { Dashboard }
+
+#export("navibar") {
+<!-- Logo -->
+<a href="/" class="logo">
+    <!-- mini logo for sidebar mini 50x50 pixels -->
+    <span class="logo-mini"><b>SWV</b></span>
+        <!-- logo for regular state and mobile devices -->
+    <span class="logo-lg"><b>SWV</b>Crud</span>
+</a>
+<!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+
+        #embed("admin/inc/menu")
+    </nav>
+</header>
+
+#embed("admin/inc/sidemenu")
+
+}
+
+#export("breadcrumb") {
+<section class="content-header">
+    <h1>
+        Dashboard<small> First Page </small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/admin/dashboard">SWVCrud</a></li>
+        <li class="active">Dashboard</li>
+    </ol>
+</section>
+}
+
+#export("content") {
+    
+}

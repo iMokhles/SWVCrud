@@ -1,0 +1,39 @@
+<div class="navbar-custom-menu pull-left">
+<ul class="nav navbar-nav">
+<!-- =================================================== -->
+<!-- ========== Top menu items (ordered left) ========== -->
+<!-- =================================================== -->
+
+<!-- <li><a href="/"><i class="fa fa-home"></i> <span>Home</span></a></li> -->
+
+<!-- ========== End of top menu left items ========== -->
+</ul>
+</div>
+
+
+<div class="navbar-custom-menu">
+<ul class="nav navbar-nav">
+<!-- ========================================================= -->
+<!-- ========== Top menu right items (ordered left) ========== -->
+<!-- ========================================================= -->
+
+<!-- <li><a href="/"><i class="fa fa-home"></i> <span>Home</span></a></li> -->
+
+<li><a href="/admin/login"> Login </a></li>
+<li><a href="/admin/register"> Register </a></li>
+
+<li>
+<a href="/logout"
+onclick="event.preventDefault();
+document.getElementById('logout-form').submit();">
+<i class="fa fa-btn fa-sign-out"></i> Log Out
+</a>
+
+<form id="logout-form" action="/logout" method="POST" style="display: none;">
+
+</form>
+</li>
+
+<!-- ========== End of top menu right items ========== -->
+</ul>
+</div>
